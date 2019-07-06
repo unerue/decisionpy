@@ -11,20 +11,22 @@
 
 #### 1. DEA(Data Envelopment Analysis)
 
-- 1-1. [DEA]() - **Evaluation**
+- 1.1. [DEA]() - **Evaluation**
   - Paper -  []()
+  - Jupyter - []()
   - Colab - []()
 
-- 1-2. [DEA-AR()]() - **Evalutation**
+- 1.2. [DEA-AR()]() - **Evalutation**
   - Paper -  []()
-  - Colab - []()
+  - Jupyter - []()
 
 #### 2. AHP(Analytic Hierarical Process)
 
-- 2-1. [AHP]() - 
+- 2.1. [AHP]() - 
   - Paper -  []()
-  - Colab - []()
+  - Jupyter - []()
 
-- 2-2. [Fuzzy AHP]() - 
+- 2.2. [Fuzzy AHP]() - 
   - Paper -  []()
-  - Colab - []()
+  - Jupyter - []()
+

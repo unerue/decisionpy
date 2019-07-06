@@ -7,6 +7,17 @@
 
 `decisionpy` is multiple criterion decision making library in **Python**.
 
+#### Dependencies
+
+decisionpy requires:
+
+* Python (>= 3.6)
+* NumPy (>= 1.11.0)
+* SciPy (>= 0.17.0)
+* PuLP (>=1.6.9)
+
+`decisionpy` does not support **Python 2.7**.
+
 ## Methods
 
 #### 1. DEA(Data Envelopment Analysis)
@@ -30,3 +41,4 @@
   - Paper -  []()
   - Jupyter - []()
 
+#### Changelog

@@ -3,6 +3,7 @@
 <p align="center">
   <img height="70" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Pandas_logo.svg/600px-Pandas_logo.svg.png" />
   <img height="70" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/NumPy_logo.svg/2880px-NumPy_logo.svg.png" />
+  <img height="70" src="https://upload.wikimedia.org/wikipedia/en/a/a7/COIN_OR_LOGO.png" />
 </p>
 
 `decisionpy` is multiple criterion decision making library in **Python**.

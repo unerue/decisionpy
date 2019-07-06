@@ -1,34 +1,30 @@
-## metaheuristics-tutorial
+## decisionpy
 
 <p align="center">
+  <img height="70" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Pandas_logo.svg/600px-Pandas_logo.svg.png" />
   <img height="70" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/NumPy_logo.svg/2880px-NumPy_logo.svg.png" />
-  <img height="70" src="https://deap.readthedocs.io/en/master/_images/deap_long.png" />
 </p>
 
-`metaheuristics-tutorial` is a tutorial for who is studying metaheuristics, combinatorial optimization, operations research using **Python**.
+`decisionpy` is multiple criterion decision making library in **Python**.
 
-## Curriculum
+## Methods
 
-#### 1. Single Solution
+#### 1. DEA(Data Envelopment Analysis)
 
-- 1-1. [SA(Simulated Annealing)]() - **Continuous, Discrete**
+- 1-1. [DEA]() - **Evaluation**
   - Paper -  []()
   - Colab - []()
 
-- 1-2. [TS(Tabu Search)]() - **Discrete**
+- 1-2. [DEA-AR()]() - **Evalutation**
   - Paper -  []()
   - Colab - []()
 
-#### 2. Population
+#### 2. AHP(Analytic Hierarical Process)
 
-- 2-1. [GA(Genetic Algorithm)]() - **Continuous, Discrete**
+- 2-1. [AHP]() - 
   - Paper -  []()
   - Colab - []()
 
-- 2-2. [PSO(Particle Swarm Optimization)]() - **Continuous**
-  - Paper -  []()
-  - Colab - []()
-
-- 2-3. [ACO(Ant Colony Optimization)]() - **Discrete**
+- 2-2. [Fuzzy AHP]() - 
   - Paper -  []()
   - Colab - []()

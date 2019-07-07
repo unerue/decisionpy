@@ -6,16 +6,16 @@
   <img height="70" src="https://upload.wikimedia.org/wikipedia/en/a/a7/COIN_OR_LOGO.png" />
 </p>
 
-`decisionpy` is multiple criterion decision making library in **Python**.
+`decisionpy` is multiple criterion decision making (MCDM) library providing easy-to-use MCDM methods for **Python** programming language, with a **scikit-learn** inspired and **pandas** compatible API.
 
 #### Dependencies
 
 decisionpy requires:
 
 * Python (>= 3.6)
+* pandas (>= 0.24.2)
 * NumPy (>= 1.11.0)
-* SciPy (>= 0.17.0)
-* PuLP (>=1.6.9)
+* PuLP (>= 1.6.9)
 
 `decisionpy` does not support **Python 2.7**.
 

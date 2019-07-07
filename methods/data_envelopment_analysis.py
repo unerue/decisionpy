@@ -14,7 +14,7 @@ class DataEnvelopmentAnalysis:
 
     Parameters:
     -----------
-    returns : return to scale 'CCR', 'BCC', or 'AR'
+    returns : return to scale 'CCR(Chames et al. 1978)', 'BCC(Banker et al. 1984)', or 'AR'
     inputs : a pandas dataframe of the inputs to the DMUs
              ----------------------------
              | DMUs | Input 1 | Input 2 |
@@ -24,11 +24,9 @@ class DataEnvelopmentAnalysis:
              ----------------------------
     outputs : a pandas dataframe of the outputs from the DMUs
     in_weights : the weight restriction to apply to all inputs to all DMUs
-                (default is [0, inf])
+                (default is [0, np.inf])
     out_weights : the weight restriction to apply to all outputs to all DMUs
-                    (default is [0, inf)
-    Weight restrictions must be specified as a list. To specify only one bound
-    leave the other as None, eg. in_weights=[1, None].
+                    (default is [0, np.inf)
 
     Returns:
     --------

@@ -29,21 +29,16 @@
   - Paper -  []()
   - Jupyter - []()
 
-- 2.2. [Fuzzy AHP]() - 
-  - Paper -  []()
-  - Jupyter - []()
-
-
 ### Evaluation
 
 #### DEA (Data Envelopment Analysis)
 
-- 1.1. [DEA]() - **Evaluation**
+- 1.1. [DEA]()
   - Paper -  []()
   - Jupyter - []()
   - Colab - []()
 
-- 1.2. [DEA-AR()]() - **Evalutation**
+- 1.2. [DEA-AR()]()
   - Paper -  []()
   - Jupyter - []()
 

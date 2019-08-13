@@ -6,7 +6,7 @@ from pulp import *
 
 
 class DataEnvelopmentAnalysis:
-    """Data Envelopment Analysis
+    """Data Envelopment Analysis : CCR (Charnes, Cooper & Rhodes, 1978)
 
     A container for the elements of a data envelopment analysis. Sets
     up the linear programmes and solves them with pulp.
@@ -35,6 +35,7 @@ class DataEnvelopmentAnalysis:
     def __init__(self, inputs, outputs):
         self.inputs = inputs
         self.outputs = outputs
+        self.index = inputs.index.tolist()
         
         self.num_dmus = len(inputs)
         self.num_inputs = inputs.shape[1]
@@ -44,21 +45,20 @@ class DataEnvelopmentAnalysis:
         self.efficiency = {}
     
     def _generate_problems(self):
-        return {k: self._create_problem(v) for k, v in enumerate(range(self.num_dmus))}
+        return {k: self._problem(v) for k, v in enumerate(range(self.num_dmus))}
     
-    def _create_problem(self, dmu):
+    def _problem(self, dmu):
         prob = LpProblem('DMU{}'.format(dmu), LpMaximize)
         input_weights = LpVariable.dicts('input_weights', (range(self.num_dmus), range(self.num_inputs)),
                                          lowBound=0)
         output_weights = LpVariable.dicts('output_weights', (range(self.num_dmus), range(self.num_outputs)),
                                          lowBound=0)
-        weight = 0
-        
-        prob += LpAffineExpression([(output_weights[dmu][i], self.outputs.iloc[dmu, i]) for i in range(self.num_outputs)]) - weight
+
+        prob += LpAffineExpression([(output_weights[dmu][i], self.outputs.iloc[dmu, i]) for i in range(self.num_outputs)]) - 0
         prob += LpAffineExpression([(input_weights[dmu][i], self.inputs.iloc[dmu, i]) for i in range(self.num_inputs)]) == 1
         
         for i in range(self.num_dmus):
-            prob += self._constraint(dmu, i, input_weights, output_weights) - weight <= 0
+            prob += self._constraint(dmu, i, input_weights, output_weights) - 0 <= 0
         
         return prob
     
@@ -90,3 +90,4 @@ outputs = pd.DataFrame(data=[125, 44, 80, 23], index=branches)
 dea = DataEnvelopmentAnalysis(inputs, outputs)
 dea.solve()
 print(dea.efficiency)
+print(dea.index)

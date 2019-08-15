@@ -26,21 +26,18 @@
 #### AHP (Analytic Hierarical Process)
 
 - 2.1. [AHP]() - 
-  - Paper -  []()
+  - References -  []()
   - Jupyter - []()
+  - Source - [analytic_hierarchy_process.py]()
 
 ### Evaluation
 
 #### DEA (Data Envelopment Analysis)
 
 - 1.1. [DEA]()
-  - Paper -  []()
+  - References -  []()
   - Jupyter - []()
-  - Colab - []()
-
-- 1.2. [DEA-AR()]()
-  - Paper -  []()
-  - Jupyter - []()
+  - Source - [data_envelopment_analysis.py]()
 
 #### Changelog
 

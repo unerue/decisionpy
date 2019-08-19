@@ -6,10 +6,9 @@ from pulp import *
 
 
 class DataEnvelopmentAnalysis:
-    """Data Envelopment Analysis : CCR (Charnes, Cooper & Rhodes, 1978)
-
-    A container for the elements of a data envelopment analysis. Sets
-    up the linear programmes and solves them with pulp.
+    """Data Envelopment Analysis 
+    
+    Based on CCR (Charnes, Cooper & Rhodes, 1978)
 
     Parameters:
     -----------
@@ -83,11 +82,12 @@ class DataEnvelopmentAnalysis:
         return self.efficiency
 
 
-branches = ['Croydon', 'Dorking', 'Redhill', 'Reigate']
-inputs = pd.DataFrame(data=[18, 16, 17, 11], index=branches)
-outputs = pd.DataFrame(data=[125, 44, 80, 23], index=branches)
+if __name == '__main__':
+    branches = ['Croydon', 'Dorking', 'Redhill', 'Reigate']
+    inputs = pd.DataFrame(data=[18, 16, 17, 11], index=branches)
+    outputs = pd.DataFrame(data=[125, 44, 80, 23], index=branches)
 
-dea = DataEnvelopmentAnalysis(inputs, outputs)
-dea.solve()
-print(dea.efficiency)
-print(dea.index)
+    dea = DataEnvelopmentAnalysis(inputs, outputs)
+    dea.solve()
+    print(dea.efficiency)
+    print(dea.index)

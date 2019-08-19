@@ -1,4 +1,4 @@
-<img alt="Python37" src="https://img.shields.io/badge/Python-3.7-blue.svg" /> <img alt="Version" src="https://img.shields.io/badge/version-0.0.1b-red.svg" /> <img alt="Kyungsu" src="https://img.shields.io/badge/Created%20by-Kyungsu-orange.svg" />
+<img alt="Python37" src="https://img.shields.io/badge/Python-3.7-blue.svg" /> <img alt="Version" src="https://img.shields.io/badge/Version-0.0.1b-red.svg" /> <img alt="Kyungsu" src="https://img.shields.io/badge/Created%20by-Kyungsu-orange.svg" />
 
 # decisionpy
 

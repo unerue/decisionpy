@@ -1,4 +1,4 @@
-<img alt="Python37" src="https://img.shields.io/badge/Python-3.7-blue.svg" /> <img alt="Version" src="https://img.shields.io/badge/Version-0.0.1b-red.svg" /> <img alt="Kyungsu" src="https://img.shields.io/badge/Created%20by-Kyungsu-orange.svg" />
+<img alt="Python37" src="https://img.shields.io/badge/Python-3.7-blue.svg" /> <img alt="Version" src="https://img.shields.io/badge/Version-0.0.1b-red.svg" /> <img alt="Kyungsu" src="https://img.shields.io/badge/Created%20by-Kyungsu-orange.svg?style=flat&colorA=E1523D&colorB=blue" />
 
 # decisionpy
 
@@ -8,7 +8,7 @@
   <img height="70" src="https://upload.wikimedia.org/wikipedia/en/a/a7/COIN_OR_LOGO.png" />
 </p>
 
-`decisionpy` is multiple criterion decision making (MCDM) library providing easy-to-use MCDM methods for **Python** programming language, with a **scikit-learn** inspired and **pandas** compatible API.
+`decisionpy` is multiple criterion decision making (MCDM) library providing easy-to-use MCDM methods for **Python** programming language, with a **scikit-learn** inspired and **pandas** compatible API. Check the [document](https://decisionpy.readthedocs.io/en/latest/#).
 
 #### Dependencies
 

@@ -17,6 +17,7 @@ class AnalyticHierarchyProcess:
     def __init__(self, inputs):
         self.random_indices = [0, 0, 0.58, 0.90, 1.12, 1.24, 1.32, 1.41, 1.45, 1.49]
         self.inputs = inputs
+        
         self.num_criteria = 4
 
     def noramlize(self, x):

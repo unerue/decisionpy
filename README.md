@@ -2,6 +2,8 @@
 
 # decisionpy
 
+## Please do not refer to this code until Oct. 2019.
+
 <p align="center">
   <img height="70" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Pandas_logo.svg/600px-Pandas_logo.svg.png" />
   <img height="70" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/NumPy_logo.svg/2880px-NumPy_logo.svg.png" />
